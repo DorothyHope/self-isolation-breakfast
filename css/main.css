@@ -1,0 +1,169 @@
+html,
+body {
+    width:100%;
+    max-width:100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New';
+    font-size: 120%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.ip-header {
+    height: 60px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 2;
+}
+
+.ip-main-nav-bar {
+    height:inherit;
+    width: 100%;
+}
+
+.ip-main-list {
+    margin: 0px;
+    padding: 0px;
+    height: inherit;
+    list-style-type: none;
+}
+
+.ip-main-list-item {
+    display: inline-block;
+    height: inherit;
+    margin-top: 10px;
+}
+
+.ip-main-nav-bar-list-link {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: inherit;
+    width: 150px;
+    max-width: 50vw;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 15px; 
+    font-family: monospace;
+    color: black;
+}
+
+.logo{
+    position:absolute;
+    margin-top:15px;
+    margin-left:10px;
+}
+
+.page-heading {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    font-weight: lighter;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.images {
+    float: left;
+}
+
+.bacon-egg-title{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 90px;
+    font-weight: lighter;
+}
+
+.bacon-egg-image {
+    float: left;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+
+}
+
+.bacon-ingredients-list {
+  margin-right: 100px;
+}
+
+.bacon-list-items {
+
+}
+
+.bacon-egg-directions-title {
+    padding-top: 50px;
+
+}
+
+.bacon-egg-ol {
+    margin-right: 55px;
+}
+
+.bacon-egg-direct {
+    padding-right: 50px;
+    background-color: grey;
+}
+.nutella-heading {
+    padding-top: 200px;
+    font-weight: lighter;
+    margin-left:750px;
+}
+
+.nutella-ul {
+    margin-left: 50px;
+}
+
+.nutella-image {
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+
+.granola-title {
+    margin-top:100px;
+    margin-left:90px;
+    font-weight: lighter;
+}
+.granola-image {
+    float:left;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right:80px;
+    border-radius: 50px;
+}
+
+.footer {
+    position:absolute;
+    width:100%;
+    margin-top: 150px;
+}
+
+
+.footer-social-all-icons {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.footer-social-icons {
+    margin:0px;
+    padding:10px;
+    height: inherit;
+    list-style-type: none;
+    display: inline-block;
+    justify-content: center;
+}
